@@ -1,0 +1,12 @@
+description: |
+  a spi hotswap connector device that detects the current sensor
+
+compatible: hotswap-connector
+
+properties:
+  irq-gpios:
+    type: phandle-array
+    required: true
+  potential-devices:
+    type: phandles
+    required: true

@@ -1,0 +1,5 @@
+zephyr_library()
+zephyr_library_sources(src/hotswap_connector.c)
+zephyr_include_directories(include/)
+zephyr_include_directories(/home/tommy/Desktop/zmk/app/include)
+zephyr_include_directories(/home/tommy/Desktop/zmk/include)
